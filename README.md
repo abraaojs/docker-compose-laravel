@@ -1,6 +1,5 @@
-# Creat by Abraão Silva
-# Date 18 Jan 2019 
-
+Creat by Abraão Silva
+Date 18 Jan 2019 
 # Descrição (How To)
 
 Docker utilizando o compose, arquivo de configuração com variáveis de ambiente, criando um container nginx 1.13.3 e um container php 7.1.9-fpm ligados através de um link e criando um container mysql 5.7.19.
