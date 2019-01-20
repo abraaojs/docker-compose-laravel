@@ -62,7 +62,7 @@ Laravel versão 5.5.22
 
 1. Clone o repositório usando o comando:
 
-   git clone https://github.com/danielnogueira-dev/Docker-Compose-Nginx-Php-Laravel-Mysql
+   git clone https://github.com/abraaojs/docker-compose-laravel
 
 2. Entre na pasta Docker-Compose-Nginx-Php-Laravel-Mysql e copie o arquivo env-example para .env.
 
@@ -72,7 +72,7 @@ Laravel versão 5.5.22
 
    docker-compose up -d
 
-4. Adicione os domínios no arquivo de hosts do windows.
+4. Adicione os domínios no arquivo de hosts do windows | Linux | MacOS
 
    127.0.0.1 localhost
 
@@ -80,11 +80,11 @@ Laravel versão 5.5.22
 
 5. Acessar o shell do container:
     
-	winpty docker exec -it nginx bash
+	docker exec -it nginx bash
 
-	winpty docker exec -it php-fpm bash
+	docker exec -it php-fpm bash
 	
-	winpty docker exec -it mysql bash
+	docker exec -it mysql bash
    
 6. Instruções iniciais para rodar o Laravel no localhost:
 
