@@ -1,6 +1,8 @@
+# Creat by Abraão Silva
+# Date 18 Jan 2019 
 FROM mysql:5.7.19
 
-MAINTAINER Daniel Nogueira <danielnogueira.dev@gmail.com>
+MAINTAINER Abraao Silva <abraaojs.dev@gmail.com>
 
 RUN sed -i -e"s/^bind-address\s*=\s*127.0.0.1/bind-address = 0.0.0.0/" /etc/mysql/my.cnf
 
